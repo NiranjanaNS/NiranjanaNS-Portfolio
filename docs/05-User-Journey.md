@@ -1,8 +1,16 @@
-# Portfolio Map
+# User Journey
 
-## Core Flow
+## Purpose
+
+This document defines how different visitors move through NiranjanaNS Engineering Journey. The
+experience should feel like a story, but the path should still be clear enough for busy recruiters
+and technical reviewers.
+
+## Primary Journey
 
 Loading
+
+Start Journey
 
 Hero
 
@@ -25,6 +33,100 @@ AI Research Center
 Achievements
 
 Contact
+
+Resume Download or External Link
+
+## Journey Intent
+
+The visitor should move from curiosity to confidence.
+
+```text
+Attention
+Understanding
+Trust
+Technical Proof
+Action
+```
+
+## Stage 1: Entry
+
+User state:
+
+- Curious but impatient.
+- Deciding whether to stay.
+
+Product job:
+
+- Load quickly.
+- Show name, role, and value proposition.
+- Make the portfolio feel premium without hiding content.
+
+Success:
+
+- Visitor understands the portfolio's purpose in under 10 seconds.
+
+## Stage 2: Identity
+
+User state:
+
+- Wants to know who Niranjana is.
+
+Product job:
+
+- Explain current focus.
+- Show values and interests.
+- Keep the story concise.
+
+Success:
+
+- Visitor can summarize Niranjana's direction and role fit.
+
+## Stage 3: Capability
+
+User state:
+
+- Wants proof of skills.
+
+Product job:
+
+- Show skills through context, not percentage bars.
+- Connect skills to real projects.
+- Keep interaction simple on desktop and mobile.
+
+Success:
+
+- Visitor understands what technologies Niranjana can use and where she used them.
+
+## Stage 4: Engineering Proof
+
+User state:
+
+- Wants evidence beyond visuals.
+
+Product job:
+
+- Show project case studies.
+- Explain architecture and decisions.
+- Link to GitHub and live demos.
+
+Success:
+
+- Visitor sees enough technical depth to continue evaluation.
+
+## Stage 5: Conversion
+
+User state:
+
+- Ready to take action.
+
+Product job:
+
+- Make resume, GitHub, LinkedIn, and email easy to access.
+- End with a confident but simple CTA.
+
+Success:
+
+- Visitor downloads resume, opens GitHub or LinkedIn, or sends an email.
 
 ## Scene 1: Hero
 
@@ -214,3 +316,29 @@ Visual mood:
 - Stars
 - Rocket
 - Calm final moment
+
+## Mobile Journey
+
+The same story should work on mobile, but the horizontal world can become a stacked vertical
+journey if needed.
+
+Mobile requirements:
+
+- No hover-only information.
+- Clear section navigation.
+- Large enough touch targets.
+- Reduced animation intensity.
+- Resume and contact links remain easy to find.
+
+## Exit Paths
+
+Visitors may leave the main journey through:
+
+- Resume download.
+- GitHub.
+- LinkedIn.
+- Email.
+- Live project demo.
+- Project repository.
+
+These exits should feel intentional, not hidden.

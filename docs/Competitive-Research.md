@@ -1,4 +1,4 @@
-# Inspiration Research
+# Competitive Research
 
 This document tracks inspiration without copying. The goal is to study why strong product and
 portfolio experiences work, then translate those lessons into original decisions.
@@ -12,7 +12,7 @@ For each reference, capture:
 - Ideas to use.
 - Ideas to avoid.
 
-## Inspiration Sources To Study
+## Core References To Study
 
 1. Apple product pages
 2. Vercel
@@ -29,6 +29,45 @@ For each reference, capture:
 13. Josh Comeau site
 14. Lee Robinson site
 15. Rauno Freiberg site
+
+## What To Observe
+
+### Apple
+
+- Typography hierarchy.
+- Product storytelling.
+- Spacing.
+- Scroll pacing.
+- Visual restraint.
+
+### Vercel
+
+- Developer-first UI.
+- Cards and panels.
+- Code examples.
+- Navigation clarity.
+- Documentation feel.
+
+### Stripe
+
+- Motion.
+- Gradients.
+- Responsive layout.
+- Technical credibility with strong visual polish.
+
+### Linear
+
+- Dark-mode refinement.
+- Minimal icons.
+- Clear product language.
+- Dense but elegant information design.
+
+### Awwwards
+
+- Storytelling patterns.
+- Micro-interactions.
+- Creative transitions.
+- Ideas to avoid when usability suffers.
 
 ## Research Template
 
