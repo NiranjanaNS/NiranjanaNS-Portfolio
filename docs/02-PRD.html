@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NiranjanaNS Portfolio PRD</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #111827;
+        --muted: #475569;
+        --border: #cbd5e1;
+        --panel: #f8fafc;
+        --accent: #2563eb;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: #e2e8f0;
+        color: var(--ink);
+        font-family: Inter, Arial, sans-serif;
+        line-height: 1.6;
+      }
+
+      main {
+        width: min(920px, 100%);
+        margin: 0 auto;
+        background: #ffffff;
+        padding: 64px 72px;
+        min-height: 100vh;
+      }
+
+      h1,
+      h2,
+      h3 {
+        line-height: 1.2;
+        margin: 0;
+      }
+
+      h1 {
+        font-size: 42px;
+        letter-spacing: 0;
+      }
+
+      h2 {
+        border-top: 1px solid var(--border);
+        font-size: 24px;
+        margin-top: 38px;
+        padding-top: 24px;
+      }
+
+      h3 {
+        font-size: 18px;
+        margin-top: 24px;
+      }
+
+      p {
+        margin: 12px 0;
+      }
+
+      ul,
+      ol {
+        margin: 12px 0 0;
+        padding-left: 24px;
+      }
+
+      li {
+        margin: 6px 0;
+      }
+
+      code {
+        background: #f1f5f9;
+        border: 1px solid #e2e8f0;
+        border-radius: 6px;
+        color: #0f172a;
+        font-family: "JetBrains Mono", Consolas, monospace;
+        font-size: 0.92em;
+        padding: 1px 5px;
+      }
+
+      .cover {
+        border-bottom: 4px solid var(--accent);
+        margin-bottom: 40px;
+        padding-bottom: 28px;
+      }
+
+      .eyebrow {
+        color: var(--accent);
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .subtitle {
+        color: var(--muted);
+        font-size: 18px;
+        margin-top: 10px;
+      }
+
+      .meta {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        color: var(--muted);
+        display: grid;
+        gap: 4px;
+        margin-top: 24px;
+        padding: 16px;
+      }
+
+      @media print {
+        body {
+          background: #ffffff;
+        }
+
+        main {
+          padding: 0;
+          width: 100%;
+        }
+
+        h2 {
+          break-after: avoid;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="cover">
+        <div class="eyebrow">Product Requirements Document</div>
+        <h1>NiranjanaNS Portfolio</h1>
+        <p class="subtitle">
+          An immersive software engineering portfolio with cinematic storytelling and professional engineering proof.
+        </p>
+        <div class="meta">
+          <span><strong>Version:</strong> 1.0</span>
+          <span><strong>Date:</strong> 2026-07-08</span>
+          <span><strong>Phase:</strong> Product Discovery and Design</span>
+        </div>
+      </section>
+
+      <h2>1. Overview</h2>
+      <p>NiranjanaNS Portfolio is an immersive software engineering portfolio that combines cinematic storytelling with professional engineering proof. The product presents Niranjana's journey, skills, projects, architecture thinking, AI interests, and contact information through a polished, responsive, accessible web experience.</p>
+
+      <h2>2. Problem Statement</h2>
+      <p>Recruiters and hiring managers review many portfolios quickly. Static portfolios often fail to communicate engineering maturity because they focus on surface-level sections such as skills, projects, and contact links.</p>
+      <p>This portfolio solves that problem by showing both immediate visual memorability and deep technical credibility through case studies, architecture, and documentation.</p>
+
+      <h2>3. Target Users</h2>
+      <h3>Recruiters</h3>
+      <p>Recruiters need a fast understanding of who the candidate is, what role she fits, and whether her work is worth forwarding to a technical team.</p>
+      <h3>Hiring Managers</h3>
+      <p>Hiring managers need proof of project ownership, problem solving, and communication skills.</p>
+      <h3>Engineers and Interviewers</h3>
+      <p>Engineers need evidence of architecture thinking, code quality, tradeoff awareness, and practical technical depth.</p>
+      <h3>Peers and Collaborators</h3>
+      <p>Peers need a clear way to discover projects, GitHub repositories, demos, and areas of interest.</p>
+
+      <h2>4. Product Goals</h2>
+      <ul>
+        <li>Build a memorable portfolio experience without sacrificing clarity.</li>
+        <li>Demonstrate frontend engineering through animation, interaction, responsiveness, and design.</li>
+        <li>Demonstrate software engineering through architecture, case studies, documentation, and code.</li>
+        <li>Make project exploration easy and useful.</li>
+        <li>Present contact and resume actions clearly.</li>
+        <li>Maintain high performance, accessibility, SEO, and best-practice scores.</li>
+      </ul>
+
+      <h2>5. Non-Goals</h2>
+      <ul>
+        <li>Do not build an animation showcase that hides content.</li>
+        <li>Do not depend on heavy assets that make the site slow.</li>
+        <li>Do not use fake metrics, inflated skill percentages, or unclear claims.</li>
+        <li>Do not make the mobile experience a reduced afterthought.</li>
+        <li>Do not copy portfolio designs directly from inspiration sources.</li>
+      </ul>
+
+      <h2>6. Key User Journey</h2>
+      <ol>
+        <li>Visitor opens the portfolio.</li>
+        <li>Hero communicates name, role, and value proposition.</li>
+        <li>Visitor starts the journey.</li>
+        <li>Visitor travels through About, Education, Skills, Projects, Engineering, AI, and Contact.</li>
+        <li>Visitor explores one or more project case studies.</li>
+        <li>Visitor downloads resume or opens GitHub, LinkedIn, or email.</li>
+      </ol>
+
+      <h2>7. Functional Requirements</h2>
+      <h3>Hero</h3>
+      <ul>
+        <li>Show name, role, tagline, and primary CTA.</li>
+        <li>Include a minimalist developer character.</li>
+        <li>Include subtle background motion.</li>
+        <li>Provide quick access to resume, GitHub, LinkedIn, and email.</li>
+      </ul>
+      <h3>About</h3>
+      <ul>
+        <li>Tell the personal story through concise timeline-style content.</li>
+        <li>Show location, current focus, interests, and engineering values.</li>
+      </ul>
+      <h3>Education</h3>
+      <ul>
+        <li>Present degree, institution, timeline, relevant learning areas, and current goals.</li>
+      </ul>
+      <h3>Skills</h3>
+      <ul>
+        <li>Display skills as interactive crystals or similar visual objects.</li>
+        <li>Avoid percentage bars.</li>
+        <li>Each skill should expose related projects, libraries, experience notes, or favorite features.</li>
+      </ul>
+      <h3>Projects</h3>
+      <ul>
+        <li>Serve as the largest and deepest section.</li>
+        <li>Each project should include problem, solution, stack, architecture, features, screenshots, GitHub link, live demo link, lessons learned, and future improvements.</li>
+        <li>Highlight flagship projects first.</li>
+      </ul>
+      <h3>Engineering Hub</h3>
+      <ul>
+        <li>Show architecture diagrams, folder structure, auth flow, API flow, testing approach, performance strategy, caching strategy, deployment approach, and CI/CD plan where applicable.</li>
+      </ul>
+      <h3>AI Research Center</h3>
+      <ul>
+        <li>Present AI-related work, experiments, integrations, and roadmap concepts.</li>
+        <li>Clearly label planned ideas as roadmap, not completed work.</li>
+      </ul>
+      <h3>Achievements</h3>
+      <ul>
+        <li>Present certifications, milestones, open-source contributions, hackathons, or measurable wins.</li>
+      </ul>
+      <h3>Contact</h3>
+      <ul>
+        <li>Provide email, GitHub, LinkedIn, resume download, and a clear final CTA.</li>
+      </ul>
+
+      <h2>8. Non-Functional Requirements</h2>
+      <h3>Performance</h3>
+      <ul>
+        <li>Target Lighthouse Performance score: 95+.</li>
+        <li>Initial load should be under 2 seconds on a reasonable broadband connection.</li>
+        <li>Heavy scenes and visual assets should be lazy-loaded.</li>
+        <li>Respect reduced-motion preferences.</li>
+      </ul>
+      <h3>Accessibility</h3>
+      <ul>
+        <li>Target Lighthouse Accessibility score: 95+.</li>
+        <li>Use semantic HTML.</li>
+        <li>Support keyboard navigation.</li>
+        <li>Maintain visible focus states.</li>
+        <li>Provide alt text for meaningful images.</li>
+        <li>Avoid motion that blocks access to content.</li>
+      </ul>
+      <h3>SEO</h3>
+      <ul>
+        <li>Target Lighthouse SEO score: 95+.</li>
+        <li>Include meaningful metadata, Open Graph tags, sitemap, robots configuration, and structured content where useful.</li>
+      </ul>
+      <h3>Responsiveness</h3>
+      <ul>
+        <li>Support desktop, tablet, and mobile.</li>
+        <li>Horizontal storytelling should adapt gracefully on small screens.</li>
+        <li>Content must remain readable and navigable without relying on hover.</li>
+      </ul>
+      <h3>Maintainability</h3>
+      <ul>
+        <li>Use a feature-based folder structure.</li>
+        <li>Keep shared UI components separate from portfolio-specific sections.</li>
+        <li>Store project and skill content in structured data files.</li>
+        <li>Document major technical decisions.</li>
+      </ul>
+
+      <h2>9. Design Requirements</h2>
+      <h3>Visual Direction</h3>
+      <p>Modern, premium, minimal, engineering-focused, and slightly cinematic. Reference mood: Apple product storytelling, GitHub clarity, Linear polish, Vercel developer focus, and a small cyber-inspired accent without becoming cyberpunk.</p>
+      <h3>Colors</h3>
+      <ul>
+        <li>Background: <code>#050816</code></li>
+        <li>Surface: <code>#0F172A</code></li>
+        <li>Card: <code>#111827</code></li>
+        <li>Primary accent: <code>#3B82F6</code></li>
+        <li>Secondary accent: <code>#7C3AED</code></li>
+        <li>Success: <code>#22C55E</code></li>
+        <li>Warning: <code>#F59E0B</code></li>
+        <li>Error: <code>#EF4444</code></li>
+        <li>Text: <code>#F8FAFC</code></li>
+        <li>Muted text: <code>#94A3B8</code></li>
+      </ul>
+      <h3>Typography</h3>
+      <ul>
+        <li>Heading: Space Grotesk</li>
+        <li>Body: Inter</li>
+        <li>Code: JetBrains Mono</li>
+      </ul>
+      <h3>Spacing</h3>
+      <p>Use an 8px spacing system: <code>8, 16, 24, 32, 40, 48, 64, 80, 96, 128</code>.</p>
+
+      <h2>10. Technical Requirements</h2>
+      <h3>Planned Stack</h3>
+      <ul>
+        <li>Next.js 15</li>
+        <li>TypeScript</li>
+        <li>Tailwind CSS</li>
+        <li>Shadcn UI</li>
+        <li>GSAP + ScrollTrigger</li>
+        <li>Lenis</li>
+        <li>Framer Motion</li>
+        <li>Lucide React</li>
+        <li>React Hook Form + Zod</li>
+        <li>Vercel</li>
+      </ul>
+      <h3>Data Strategy</h3>
+      <p>Use structured local data for navigation sections, skills, projects, case studies, achievements, and social links. This keeps content maintainable and easier to update.</p>
+
+      <h2>11. Risks</h2>
+      <ul>
+        <li>Scroll animation can hurt usability if it becomes too complex.</li>
+        <li>Heavy visual assets can reduce performance.</li>
+        <li>Horizontal storytelling can be difficult on mobile.</li>
+        <li>Too much motion can reduce accessibility.</li>
+        <li>AI-generated UI may produce inconsistent design unless reviewed carefully.</li>
+      </ul>
+
+      <h2>12. Open Questions</h2>
+      <ul>
+        <li>Which projects are confirmed as flagship case studies?</li>
+        <li>Which resume file should be linked?</li>
+        <li>Should the first release include sound, or should sound be a later enhancement?</li>
+        <li>Should the first release include a full engineering notes page, or begin with notes inside each project?</li>
+        <li>Should the project use a CMS later, or remain static for performance and simplicity?</li>
+      </ul>
+
+      <h2>13. Release Criteria</h2>
+      <ul>
+        <li>All core sections are implemented.</li>
+        <li>At least three projects have complete case studies.</li>
+        <li>Resume, GitHub, LinkedIn, and email actions work.</li>
+        <li>Desktop and mobile layouts are polished.</li>
+        <li>Lighthouse targets are met or documented with a remediation plan.</li>
+        <li>README and docs explain the product clearly.</li>
+      </ul>
+    </main>
+  </body>
+</html>

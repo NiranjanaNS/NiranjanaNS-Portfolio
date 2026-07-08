@@ -1,0 +1,1407 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 10 /Kids [6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Length 2184 >>
+stream
+BT
+1 0 0 1 0 0 Tm
+/F1 9 Tf
+56 783.89 Td
+(Product Requirements Document) Tj
+0 -13 Td
+-56 -756.89 Td
+/F2 26 Tf
+56 756.89 Td
+(NiranjanaNS Portfolio) Tj
+0 -32 Td
+-56 -706.89 Td
+/F1 9 Tf
+56 706.89 Td
+(Version 1.0 | 2026-07-08 | Product Discovery and Design) Tj
+0 -13 Td
+-56 -679.89 Td
+/F1 10.5 Tf
+56 675.89 Td
+0 -15 Td
+-56 -656.89 Td
+/F2 16 Tf
+56 638.89 Td
+(1. Overview) Tj
+0 -22 Td
+-56 -608.89 Td
+/F1 10.5 Tf
+56 604.89 Td
+0 -15 Td
+-56 -585.89 Td
+/F1 10.5 Tf
+56 581.89 Td
+(NiranjanaNS Portfolio is an immersive software engineering portfolio that combines) Tj
+0 -15 Td
+(cinematic) Tj
+0 -15 Td
+-56 -547.89 Td
+/F1 10.5 Tf
+56 543.89 Td
+(storytelling with professional engineering proof. The product presents Niranjana's) Tj
+0 -15 Td
+(journey,) Tj
+0 -15 Td
+-56 -509.89 Td
+/F1 10.5 Tf
+56 505.89 Td
+(skills, projects, architecture thinking, AI interests, and contact information through a) Tj
+0 -15 Td
+(polished,) Tj
+0 -15 Td
+-56 -471.89 Td
+/F1 10.5 Tf
+56 467.89 Td
+(responsive, accessible web experience.) Tj
+0 -15 Td
+-56 -448.89 Td
+/F1 10.5 Tf
+56 444.89 Td
+0 -15 Td
+-56 -425.89 Td
+/F2 16 Tf
+56 407.89 Td
+(2. Problem Statement) Tj
+0 -22 Td
+-56 -377.89 Td
+/F1 10.5 Tf
+56 373.89 Td
+0 -15 Td
+-56 -354.89 Td
+/F1 10.5 Tf
+56 350.89 Td
+(Recruiters and hiring managers review many portfolios quickly. Static portfolios often) Tj
+0 -15 Td
+(fail to) Tj
+0 -15 Td
+-56 -316.89 Td
+/F1 10.5 Tf
+56 312.89 Td
+(communicate engineering maturity because they focus on surface-level sections such as) Tj
+0 -15 Td
+(skills,) Tj
+0 -15 Td
+-56 -278.89 Td
+/F1 10.5 Tf
+56 274.89 Td
+(projects, and contact links.) Tj
+0 -15 Td
+-56 -255.89 Td
+/F1 10.5 Tf
+56 251.89 Td
+0 -15 Td
+-56 -232.89 Td
+/F1 10.5 Tf
+56 228.89 Td
+(This portfolio solves that problem by showing both:) Tj
+0 -15 Td
+-56 -209.89 Td
+/F1 10.5 Tf
+56 205.89 Td
+0 -15 Td
+-56 -186.89 Td
+/F1 10.5 Tf
+70 182.89 Td
+(- Immediate visual memorability.) Tj
+0 -15 Td
+-70 -163.89 Td
+/F1 10.5 Tf
+70 159.89 Td
+(- Deep technical credibility through case studies, architecture, and documentation.) Tj
+0 -15 Td
+-70 -140.89 Td
+/F1 10.5 Tf
+56 136.89 Td
+0 -15 Td
+-56 -117.88999999999999 Td
+/F2 16 Tf
+56 99.88999999999999 Td
+(3. Target Users) Tj
+0 -22 Td
+-56 -69.88999999999999 Td
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 595.28 841.89]
+/Resources << /Font << /F1 3 0 R /F2 4 0 R >> >>
+/Contents 5 0 R
+>>
+endobj
+7 0 obj
+<< /Length 2299 >>
+stream
+BT
+1 0 0 1 0 0 Tm
+/F1 10.5 Tf
+56 779.89 Td
+0 -15 Td
+-56 -760.89 Td
+/F2 12 Tf
+56 749.89 Td
+(Recruiters) Tj
+0 -17 Td
+-56 -728.89 Td
+/F1 10.5 Tf
+56 724.89 Td
+0 -15 Td
+-56 -705.89 Td
+/F1 10.5 Tf
+56 701.89 Td
+(Recruiters need a fast understanding of who the candidate is, what role she fits, and) Tj
+0 -15 Td
+(whether her) Tj
+0 -15 Td
+-56 -667.89 Td
+/F1 10.5 Tf
+56 663.89 Td
+(work is worth forwarding to a technical team.) Tj
+0 -15 Td
+-56 -644.89 Td
+/F1 10.5 Tf
+56 640.89 Td
+0 -15 Td
+-56 -621.89 Td
+/F2 12 Tf
+56 610.89 Td
+(Hiring Managers) Tj
+0 -17 Td
+-56 -589.89 Td
+/F1 10.5 Tf
+56 585.89 Td
+0 -15 Td
+-56 -566.89 Td
+/F1 10.5 Tf
+56 562.89 Td
+(Hiring managers need proof of project ownership, problem solving, and communication) Tj
+0 -15 Td
+(skills.) Tj
+0 -15 Td
+-56 -528.89 Td
+/F1 10.5 Tf
+56 524.89 Td
+0 -15 Td
+-56 -505.89 Td
+/F2 12 Tf
+56 494.89 Td
+(Engineers and Interviewers) Tj
+0 -17 Td
+-56 -473.89 Td
+/F1 10.5 Tf
+56 469.89 Td
+0 -15 Td
+-56 -450.89 Td
+/F1 10.5 Tf
+56 446.89 Td
+(Engineers need evidence of architecture thinking, code quality, tradeoff awareness, and) Tj
+0 -15 Td
+(practical) Tj
+0 -15 Td
+-56 -412.89 Td
+/F1 10.5 Tf
+56 408.89 Td
+(technical depth.) Tj
+0 -15 Td
+-56 -389.89 Td
+/F1 10.5 Tf
+56 385.89 Td
+0 -15 Td
+-56 -366.89 Td
+/F2 12 Tf
+56 355.89 Td
+(Peers and Collaborators) Tj
+0 -17 Td
+-56 -334.89 Td
+/F1 10.5 Tf
+56 330.89 Td
+0 -15 Td
+-56 -311.89 Td
+/F1 10.5 Tf
+56 307.89 Td
+(Peers need a clear way to discover projects, GitHub repositories, demos, and areas of) Tj
+0 -15 Td
+(interest.) Tj
+0 -15 Td
+-56 -273.89 Td
+/F1 10.5 Tf
+56 269.89 Td
+0 -15 Td
+-56 -250.89 Td
+/F2 16 Tf
+56 232.89 Td
+(4. Product Goals) Tj
+0 -22 Td
+-56 -202.89 Td
+/F1 10.5 Tf
+56 198.89 Td
+0 -15 Td
+-56 -179.89 Td
+/F1 10.5 Tf
+70 175.89 Td
+(- Build a memorable portfolio experience without sacrificing clarity.) Tj
+0 -15 Td
+-70 -156.89 Td
+/F1 10.5 Tf
+70 152.89 Td
+(- Demonstrate frontend engineering through animation, interaction, responsiveness,) Tj
+0 -15 Td
+(and design.) Tj
+0 -15 Td
+-70 -118.88999999999999 Td
+/F1 10.5 Tf
+70 114.88999999999999 Td
+(- Demonstrate software engineering through architecture, case studies, documentation,) Tj
+0 -15 Td
+(and code.) Tj
+0 -15 Td
+-70 -80.88999999999999 Td
+/F1 10.5 Tf
+70 76.88999999999999 Td
+(- Make project exploration easy and useful.) Tj
+0 -15 Td
+-70 -57.889999999999986 Td
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 595.28 841.89]
+/Resources << /Font << /F1 3 0 R /F2 4 0 R >> >>
+/Contents 7 0 R
+>>
+endobj
+9 0 obj
+<< /Length 2464 >>
+stream
+BT
+1 0 0 1 0 0 Tm
+/F1 10.5 Tf
+70 779.89 Td
+(- Present contact and resume actions clearly.) Tj
+0 -15 Td
+-70 -760.89 Td
+/F1 10.5 Tf
+70 756.89 Td
+(- Maintain high performance, accessibility, SEO, and best-practice scores.) Tj
+0 -15 Td
+-70 -737.89 Td
+/F1 10.5 Tf
+56 733.89 Td
+0 -15 Td
+-56 -714.89 Td
+/F2 16 Tf
+56 696.89 Td
+(5. Non-Goals) Tj
+0 -22 Td
+-56 -666.89 Td
+/F1 10.5 Tf
+56 662.89 Td
+0 -15 Td
+-56 -643.89 Td
+/F1 10.5 Tf
+70 639.89 Td
+(- Do not build an animation showcase that hides content.) Tj
+0 -15 Td
+-70 -620.89 Td
+/F1 10.5 Tf
+70 616.89 Td
+(- Do not depend on heavy assets that make the site slow.) Tj
+0 -15 Td
+-70 -597.89 Td
+/F1 10.5 Tf
+70 593.89 Td
+(- Do not use fake metrics, inflated skill percentages, or unclear claims.) Tj
+0 -15 Td
+-70 -574.89 Td
+/F1 10.5 Tf
+70 570.89 Td
+(- Do not make the mobile experience a reduced afterthought.) Tj
+0 -15 Td
+-70 -551.89 Td
+/F1 10.5 Tf
+70 547.89 Td
+(- Do not copy portfolio designs directly from inspiration sources.) Tj
+0 -15 Td
+-70 -528.89 Td
+/F1 10.5 Tf
+56 524.89 Td
+0 -15 Td
+-56 -505.89 Td
+/F2 16 Tf
+56 487.89 Td
+(6. Key User Journey) Tj
+0 -22 Td
+-56 -457.89 Td
+/F1 10.5 Tf
+56 453.89 Td
+0 -15 Td
+-56 -434.89 Td
+/F1 10.5 Tf
+70 430.89 Td
+(1. Visitor opens the portfolio.) Tj
+0 -15 Td
+-70 -411.89 Td
+/F1 10.5 Tf
+70 407.89 Td
+(2. Hero communicates name, role, and value proposition.) Tj
+0 -15 Td
+-70 -388.89 Td
+/F1 10.5 Tf
+70 384.89 Td
+(3. Visitor starts the journey.) Tj
+0 -15 Td
+-70 -365.89 Td
+/F1 10.5 Tf
+70 361.89 Td
+(4. Visitor travels through About, Education, Skills, Projects, Engineering, AI, and) Tj
+0 -15 Td
+(Contact.) Tj
+0 -15 Td
+-70 -327.89 Td
+/F1 10.5 Tf
+70 323.89 Td
+(5. Visitor explores one or more project case studies.) Tj
+0 -15 Td
+-70 -304.89 Td
+/F1 10.5 Tf
+70 300.89 Td
+(6. Visitor downloads resume or opens GitHub, LinkedIn, or email.) Tj
+0 -15 Td
+-70 -281.89 Td
+/F1 10.5 Tf
+56 277.89 Td
+0 -15 Td
+-56 -258.89 Td
+/F2 16 Tf
+56 240.89 Td
+(7. Functional Requirements) Tj
+0 -22 Td
+-56 -210.89 Td
+/F1 10.5 Tf
+56 206.89 Td
+0 -15 Td
+-56 -187.89 Td
+/F2 12 Tf
+56 176.89 Td
+(Hero) Tj
+0 -17 Td
+-56 -155.89 Td
+/F1 10.5 Tf
+56 151.89 Td
+0 -15 Td
+-56 -132.89 Td
+/F1 10.5 Tf
+70 128.89 Td
+(- Show name, role, tagline, and primary CTA.) Tj
+0 -15 Td
+-70 -109.88999999999999 Td
+/F1 10.5 Tf
+70 105.88999999999999 Td
+(- Include a minimalist developer character.) Tj
+0 -15 Td
+-70 -86.88999999999999 Td
+/F1 10.5 Tf
+70 82.88999999999999 Td
+(- Include subtle background motion.) Tj
+0 -15 Td
+-70 -63.889999999999986 Td
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 595.28 841.89]
+/Resources << /Font << /F1 3 0 R /F2 4 0 R >> >>
+/Contents 9 0 R
+>>
+endobj
+11 0 obj
+<< /Length 2345 >>
+stream
+BT
+1 0 0 1 0 0 Tm
+/F1 10.5 Tf
+70 779.89 Td
+(- Provide quick access to resume, GitHub, LinkedIn, and email.) Tj
+0 -15 Td
+-70 -760.89 Td
+/F1 10.5 Tf
+56 756.89 Td
+0 -15 Td
+-56 -737.89 Td
+/F2 12 Tf
+56 726.89 Td
+(About) Tj
+0 -17 Td
+-56 -705.89 Td
+/F1 10.5 Tf
+56 701.89 Td
+0 -15 Td
+-56 -682.89 Td
+/F1 10.5 Tf
+70 678.89 Td
+(- Tell the personal story through concise timeline-style content.) Tj
+0 -15 Td
+-70 -659.89 Td
+/F1 10.5 Tf
+70 655.89 Td
+(- Show location, current focus, interests, and engineering values.) Tj
+0 -15 Td
+-70 -636.89 Td
+/F1 10.5 Tf
+56 632.89 Td
+0 -15 Td
+-56 -613.89 Td
+/F2 12 Tf
+56 602.89 Td
+(Education) Tj
+0 -17 Td
+-56 -581.89 Td
+/F1 10.5 Tf
+56 577.89 Td
+0 -15 Td
+-56 -558.89 Td
+/F1 10.5 Tf
+70 554.89 Td
+(- Present degree, institution, timeline, relevant learning areas, and current goals.) Tj
+0 -15 Td
+-70 -535.89 Td
+/F1 10.5 Tf
+56 531.89 Td
+0 -15 Td
+-56 -512.89 Td
+/F2 12 Tf
+56 501.89 Td
+(Skills) Tj
+0 -17 Td
+-56 -480.89 Td
+/F1 10.5 Tf
+56 476.89 Td
+0 -15 Td
+-56 -457.89 Td
+/F1 10.5 Tf
+70 453.89 Td
+(- Display skills as interactive crystals or similar visual objects.) Tj
+0 -15 Td
+-70 -434.89 Td
+/F1 10.5 Tf
+70 430.89 Td
+(- Avoid percentage bars.) Tj
+0 -15 Td
+-70 -411.89 Td
+/F1 10.5 Tf
+70 407.89 Td
+(- Each skill should expose related projects, libraries, experience notes, or favorite) Tj
+0 -15 Td
+(features.) Tj
+0 -15 Td
+-70 -373.89 Td
+/F1 10.5 Tf
+56 369.89 Td
+0 -15 Td
+-56 -350.89 Td
+/F2 12 Tf
+56 339.89 Td
+(Projects) Tj
+0 -17 Td
+-56 -318.89 Td
+/F1 10.5 Tf
+56 314.89 Td
+0 -15 Td
+-56 -295.89 Td
+/F1 10.5 Tf
+70 291.89 Td
+(- Serve as the largest and deepest section.) Tj
+0 -15 Td
+-70 -272.89 Td
+/F1 10.5 Tf
+70 268.89 Td
+(- Each project should include problem, solution, stack, architecture, features,) Tj
+0 -15 Td
+(screenshots,) Tj
+0 -15 Td
+-70 -234.89 Td
+/F1 10.5 Tf
+56 230.89 Td
+(GitHub link, live demo link, lessons learned, and future improvements.) Tj
+0 -15 Td
+-56 -211.89 Td
+/F1 10.5 Tf
+70 207.89 Td
+(- Highlight flagship projects first.) Tj
+0 -15 Td
+-70 -188.89 Td
+/F1 10.5 Tf
+56 184.89 Td
+0 -15 Td
+-56 -165.89 Td
+/F2 12 Tf
+56 154.89 Td
+(Engineering Hub) Tj
+0 -17 Td
+-56 -133.89 Td
+/F1 10.5 Tf
+56 129.89 Td
+0 -15 Td
+-56 -110.88999999999999 Td
+/F1 10.5 Tf
+70 106.88999999999999 Td
+(- Show architecture diagrams, folder structure, auth flow, API flow, testing) Tj
+0 -15 Td
+(approach,) Tj
+0 -15 Td
+-70 -72.88999999999999 Td
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 595.28 841.89]
+/Resources << /Font << /F1 3 0 R /F2 4 0 R >> >>
+/Contents 11 0 R
+>>
+endobj
+13 0 obj
+<< /Length 2261 >>
+stream
+BT
+1 0 0 1 0 0 Tm
+/F1 10.5 Tf
+56 779.89 Td
+(performance strategy, caching strategy, deployment approach, and CI/CD plan where) Tj
+0 -15 Td
+(applicable.) Tj
+0 -15 Td
+-56 -745.89 Td
+/F1 10.5 Tf
+56 741.89 Td
+0 -15 Td
+-56 -722.89 Td
+/F2 12 Tf
+56 711.89 Td
+(AI Research Center) Tj
+0 -17 Td
+-56 -690.89 Td
+/F1 10.5 Tf
+56 686.89 Td
+0 -15 Td
+-56 -667.89 Td
+/F1 10.5 Tf
+70 663.89 Td
+(- Present AI-related work, experiments, integrations, and roadmap concepts.) Tj
+0 -15 Td
+-70 -644.89 Td
+/F1 10.5 Tf
+70 640.89 Td
+(- Clearly label planned ideas as roadmap, not completed work.) Tj
+0 -15 Td
+-70 -621.89 Td
+/F1 10.5 Tf
+56 617.89 Td
+0 -15 Td
+-56 -598.89 Td
+/F2 12 Tf
+56 587.89 Td
+(Achievements) Tj
+0 -17 Td
+-56 -566.89 Td
+/F1 10.5 Tf
+56 562.89 Td
+0 -15 Td
+-56 -543.89 Td
+/F1 10.5 Tf
+70 539.89 Td
+(- Present certifications, milestones, open-source contributions, hackathons, or) Tj
+0 -15 Td
+(measurable wins.) Tj
+0 -15 Td
+-70 -505.89 Td
+/F1 10.5 Tf
+56 501.89 Td
+0 -15 Td
+-56 -482.89 Td
+/F2 12 Tf
+56 471.89 Td
+(Contact) Tj
+0 -17 Td
+-56 -450.89 Td
+/F1 10.5 Tf
+56 446.89 Td
+0 -15 Td
+-56 -427.89 Td
+/F1 10.5 Tf
+70 423.89 Td
+(- Provide email, GitHub, LinkedIn, resume download, and a clear final CTA.) Tj
+0 -15 Td
+-70 -404.89 Td
+/F1 10.5 Tf
+56 400.89 Td
+0 -15 Td
+-56 -381.89 Td
+/F2 16 Tf
+56 363.89 Td
+(8. Non-Functional Requirements) Tj
+0 -22 Td
+-56 -333.89 Td
+/F1 10.5 Tf
+56 329.89 Td
+0 -15 Td
+-56 -310.89 Td
+/F2 12 Tf
+56 299.89 Td
+(Performance) Tj
+0 -17 Td
+-56 -278.89 Td
+/F1 10.5 Tf
+56 274.89 Td
+0 -15 Td
+-56 -255.89 Td
+/F1 10.5 Tf
+70 251.89 Td
+(- Target Lighthouse Performance score: 95+.) Tj
+0 -15 Td
+-70 -232.89 Td
+/F1 10.5 Tf
+70 228.89 Td
+(- Initial load should be under 2 seconds on a reasonable broadband connection.) Tj
+0 -15 Td
+-70 -209.89 Td
+/F1 10.5 Tf
+70 205.89 Td
+(- Heavy scenes and visual assets should be lazy-loaded.) Tj
+0 -15 Td
+-70 -186.89 Td
+/F1 10.5 Tf
+70 182.89 Td
+(- Respect reduced-motion preferences.) Tj
+0 -15 Td
+-70 -163.89 Td
+/F1 10.5 Tf
+56 159.89 Td
+0 -15 Td
+-56 -140.89 Td
+/F2 12 Tf
+56 129.89 Td
+(Accessibility) Tj
+0 -17 Td
+-56 -108.88999999999999 Td
+/F1 10.5 Tf
+56 104.88999999999999 Td
+0 -15 Td
+-56 -85.88999999999999 Td
+/F1 10.5 Tf
+70 81.88999999999999 Td
+(- Target Lighthouse Accessibility score: 95+.) Tj
+0 -15 Td
+-70 -62.889999999999986 Td
+ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 595.28 841.89]
+/Resources << /Font << /F1 3 0 R /F2 4 0 R >> >>
+/Contents 13 0 R
+>>
+endobj
+15 0 obj
+<< /Length 2341 >>
+stream
+BT
+1 0 0 1 0 0 Tm
+/F1 10.5 Tf
+70 779.89 Td
+(- Use semantic HTML.) Tj
+0 -15 Td
+-70 -760.89 Td
+/F1 10.5 Tf
+70 756.89 Td
+(- Support keyboard navigation.) Tj
+0 -15 Td
+-70 -737.89 Td
+/F1 10.5 Tf
+70 733.89 Td
+(- Maintain visible focus states.) Tj
+0 -15 Td
+-70 -714.89 Td
+/F1 10.5 Tf
+70 710.89 Td
+(- Provide alt text for meaningful images.) Tj
+0 -15 Td
+-70 -691.89 Td
+/F1 10.5 Tf
+70 687.89 Td
+(- Avoid motion that blocks access to content.) Tj
+0 -15 Td
+-70 -668.89 Td
+/F1 10.5 Tf
+56 664.89 Td
+0 -15 Td
+-56 -645.89 Td
+/F2 12 Tf
+56 634.89 Td
+(SEO) Tj
+0 -17 Td
+-56 -613.89 Td
+/F1 10.5 Tf
+56 609.89 Td
+0 -15 Td
+-56 -590.89 Td
+/F1 10.5 Tf
+70 586.89 Td
+(- Target Lighthouse SEO score: 95+.) Tj
+0 -15 Td
+-70 -567.89 Td
+/F1 10.5 Tf
+70 563.89 Td
+(- Include meaningful metadata, Open Graph tags, sitemap, robots configuration, and) Tj
+0 -15 Td
+(structured) Tj
+0 -15 Td
+-70 -529.89 Td
+/F1 10.5 Tf
+56 525.89 Td
+(content where useful.) Tj
+0 -15 Td
+-56 -506.89 Td
+/F1 10.5 Tf
+56 502.89 Td
+0 -15 Td
+-56 -483.89 Td
+/F2 12 Tf
+56 472.89 Td
+(Responsiveness) Tj
+0 -17 Td
+-56 -451.89 Td
+/F1 10.5 Tf
+56 447.89 Td
+0 -15 Td
+-56 -428.89 Td
+/F1 10.5 Tf
+70 424.89 Td
+(- Support desktop, tablet, and mobile.) Tj
+0 -15 Td
+-70 -405.89 Td
+/F1 10.5 Tf
+70 401.89 Td
+(- Horizontal storytelling should adapt gracefully on small screens.) Tj
+0 -15 Td
+-70 -382.89 Td
+/F1 10.5 Tf
+70 378.89 Td
+(- Content must remain readable and navigable without relying on hover.) Tj
+0 -15 Td
+-70 -359.89 Td
+/F1 10.5 Tf
+56 355.89 Td
+0 -15 Td
+-56 -336.89 Td
+/F2 12 Tf
+56 325.89 Td
+(Maintainability) Tj
+0 -17 Td
+-56 -304.89 Td
+/F1 10.5 Tf
+56 300.89 Td
+0 -15 Td
+-56 -281.89 Td
+/F1 10.5 Tf
+70 277.89 Td
+(- Use a feature-based folder structure.) Tj
+0 -15 Td
+-70 -258.89 Td
+/F1 10.5 Tf
+70 254.89 Td
+(- Keep shared UI components separate from portfolio-specific sections.) Tj
+0 -15 Td
+-70 -235.89 Td
+/F1 10.5 Tf
+70 231.89 Td
+(- Store project and skill content in structured data files.) Tj
+0 -15 Td
+-70 -212.89 Td
+/F1 10.5 Tf
+70 208.89 Td
+(- Document major technical decisions.) Tj
+0 -15 Td
+-70 -189.89 Td
+/F1 10.5 Tf
+56 185.89 Td
+0 -15 Td
+-56 -166.89 Td
+/F2 16 Tf
+56 148.89 Td
+(9. Design Requirements) Tj
+0 -22 Td
+-56 -118.88999999999999 Td
+/F1 10.5 Tf
+56 114.88999999999999 Td
+0 -15 Td
+-56 -95.88999999999999 Td
+/F2 12 Tf
+56 84.88999999999999 Td
+(Visual Direction) Tj
+0 -17 Td
+-56 -63.889999999999986 Td
+ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 595.28 841.89]
+/Resources << /Font << /F1 3 0 R /F2 4 0 R >> >>
+/Contents 15 0 R
+>>
+endobj
+17 0 obj
+<< /Length 2176 >>
+stream
+BT
+1 0 0 1 0 0 Tm
+/F1 10.5 Tf
+56 779.89 Td
+0 -15 Td
+-56 -760.89 Td
+/F1 10.5 Tf
+56 756.89 Td
+(Modern, premium, minimal, engineering-focused, and slightly cinematic.) Tj
+0 -15 Td
+-56 -737.89 Td
+/F1 10.5 Tf
+56 733.89 Td
+0 -15 Td
+-56 -714.89 Td
+/F1 10.5 Tf
+56 710.89 Td
+(Reference mood:) Tj
+0 -15 Td
+-56 -691.89 Td
+/F1 10.5 Tf
+56 687.89 Td
+0 -15 Td
+-56 -668.89 Td
+/F1 10.5 Tf
+70 664.89 Td
+(- Apple product storytelling.) Tj
+0 -15 Td
+-70 -645.89 Td
+/F1 10.5 Tf
+70 641.89 Td
+(- GitHub clarity.) Tj
+0 -15 Td
+-70 -622.89 Td
+/F1 10.5 Tf
+70 618.89 Td
+(- Linear polish.) Tj
+0 -15 Td
+-70 -599.89 Td
+/F1 10.5 Tf
+70 595.89 Td
+(- Vercel developer focus.) Tj
+0 -15 Td
+-70 -576.89 Td
+/F1 10.5 Tf
+70 572.89 Td
+(- A small cyber-inspired accent, without becoming cyberpunk.) Tj
+0 -15 Td
+-70 -553.89 Td
+/F1 10.5 Tf
+56 549.89 Td
+0 -15 Td
+-56 -530.89 Td
+/F2 12 Tf
+56 519.89 Td
+(Colors) Tj
+0 -17 Td
+-56 -498.89 Td
+/F1 10.5 Tf
+56 494.89 Td
+0 -15 Td
+-56 -475.89 Td
+/F1 10.5 Tf
+70 471.89 Td
+(- Background: #050816) Tj
+0 -15 Td
+-70 -452.89 Td
+/F1 10.5 Tf
+70 448.89 Td
+(- Surface: #0F172A) Tj
+0 -15 Td
+-70 -429.89 Td
+/F1 10.5 Tf
+70 425.89 Td
+(- Card: #111827) Tj
+0 -15 Td
+-70 -406.89 Td
+/F1 10.5 Tf
+70 402.89 Td
+(- Primary accent: #3B82F6) Tj
+0 -15 Td
+-70 -383.89 Td
+/F1 10.5 Tf
+70 379.89 Td
+(- Secondary accent: #7C3AED) Tj
+0 -15 Td
+-70 -360.89 Td
+/F1 10.5 Tf
+70 356.89 Td
+(- Success: #22C55E) Tj
+0 -15 Td
+-70 -337.89 Td
+/F1 10.5 Tf
+70 333.89 Td
+(- Warning: #F59E0B) Tj
+0 -15 Td
+-70 -314.89 Td
+/F1 10.5 Tf
+70 310.89 Td
+(- Error: #EF4444) Tj
+0 -15 Td
+-70 -291.89 Td
+/F1 10.5 Tf
+70 287.89 Td
+(- Text: #F8FAFC) Tj
+0 -15 Td
+-70 -268.89 Td
+/F1 10.5 Tf
+70 264.89 Td
+(- Muted text: #94A3B8) Tj
+0 -15 Td
+-70 -245.89 Td
+/F1 10.5 Tf
+56 241.89 Td
+0 -15 Td
+-56 -222.89 Td
+/F2 12 Tf
+56 211.89 Td
+(Typography) Tj
+0 -17 Td
+-56 -190.89 Td
+/F1 10.5 Tf
+56 186.89 Td
+0 -15 Td
+-56 -167.89 Td
+/F1 10.5 Tf
+70 163.89 Td
+(- Heading: Space Grotesk) Tj
+0 -15 Td
+-70 -144.89 Td
+/F1 10.5 Tf
+70 140.89 Td
+(- Body: Inter) Tj
+0 -15 Td
+-70 -121.88999999999999 Td
+/F1 10.5 Tf
+70 117.88999999999999 Td
+(- Code: JetBrains Mono) Tj
+0 -15 Td
+-70 -98.88999999999999 Td
+/F1 10.5 Tf
+56 94.88999999999999 Td
+0 -15 Td
+-56 -75.88999999999999 Td
+ET
+endstream
+endobj
+18 0 obj
+<< /Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 595.28 841.89]
+/Resources << /Font << /F1 3 0 R /F2 4 0 R >> >>
+/Contents 17 0 R
+>>
+endobj
+19 0 obj
+<< /Length 1964 >>
+stream
+BT
+1 0 0 1 0 0 Tm
+/F2 12 Tf
+56 772.89 Td
+(Spacing) Tj
+0 -17 Td
+-56 -751.89 Td
+/F1 10.5 Tf
+56 747.89 Td
+0 -15 Td
+-56 -728.89 Td
+/F1 10.5 Tf
+56 724.89 Td
+(Use an 8px spacing system:) Tj
+0 -15 Td
+-56 -705.89 Td
+/F1 10.5 Tf
+56 701.89 Td
+0 -15 Td
+-56 -682.89 Td
+/F1 10.5 Tf
+56 678.89 Td
+(8, 16, 24, 32, 40, 48, 64, 80, 96, 128) Tj
+0 -15 Td
+-56 -659.89 Td
+/F1 10.5 Tf
+56 655.89 Td
+0 -15 Td
+-56 -636.89 Td
+/F2 16 Tf
+56 618.89 Td
+(10. Technical Requirements) Tj
+0 -22 Td
+-56 -588.89 Td
+/F1 10.5 Tf
+56 584.89 Td
+0 -15 Td
+-56 -565.89 Td
+/F2 12 Tf
+56 554.89 Td
+(Planned Stack) Tj
+0 -17 Td
+-56 -533.89 Td
+/F1 10.5 Tf
+56 529.89 Td
+0 -15 Td
+-56 -510.89 Td
+/F1 10.5 Tf
+70 506.89 Td
+(- Next.js 15) Tj
+0 -15 Td
+-70 -487.89 Td
+/F1 10.5 Tf
+70 483.89 Td
+(- TypeScript) Tj
+0 -15 Td
+-70 -464.89 Td
+/F1 10.5 Tf
+70 460.89 Td
+(- Tailwind CSS) Tj
+0 -15 Td
+-70 -441.89 Td
+/F1 10.5 Tf
+70 437.89 Td
+(- Shadcn UI) Tj
+0 -15 Td
+-70 -418.89 Td
+/F1 10.5 Tf
+70 414.89 Td
+(- GSAP + ScrollTrigger) Tj
+0 -15 Td
+-70 -395.89 Td
+/F1 10.5 Tf
+70 391.89 Td
+(- Lenis) Tj
+0 -15 Td
+-70 -372.89 Td
+/F1 10.5 Tf
+70 368.89 Td
+(- Framer Motion) Tj
+0 -15 Td
+-70 -349.89 Td
+/F1 10.5 Tf
+70 345.89 Td
+(- Lucide React) Tj
+0 -15 Td
+-70 -326.89 Td
+/F1 10.5 Tf
+70 322.89 Td
+(- React Hook Form + Zod) Tj
+0 -15 Td
+-70 -303.89 Td
+/F1 10.5 Tf
+70 299.89 Td
+(- Vercel) Tj
+0 -15 Td
+-70 -280.89 Td
+/F1 10.5 Tf
+56 276.89 Td
+0 -15 Td
+-56 -257.89 Td
+/F2 12 Tf
+56 246.89 Td
+(Data Strategy) Tj
+0 -17 Td
+-56 -225.89 Td
+/F1 10.5 Tf
+56 221.89 Td
+0 -15 Td
+-56 -202.89 Td
+/F1 10.5 Tf
+56 198.89 Td
+(Use structured local data for:) Tj
+0 -15 Td
+-56 -179.89 Td
+/F1 10.5 Tf
+56 175.89 Td
+0 -15 Td
+-56 -156.89 Td
+/F1 10.5 Tf
+70 152.89 Td
+(- Navigation sections.) Tj
+0 -15 Td
+-70 -133.89 Td
+/F1 10.5 Tf
+70 129.89 Td
+(- Skills.) Tj
+0 -15 Td
+-70 -110.88999999999999 Td
+/F1 10.5 Tf
+70 106.88999999999999 Td
+(- Projects.) Tj
+0 -15 Td
+-70 -87.88999999999999 Td
+/F1 10.5 Tf
+70 83.88999999999999 Td
+(- Case studies.) Tj
+0 -15 Td
+-70 -64.88999999999999 Td
+ET
+endstream
+endobj
+20 0 obj
+<< /Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 595.28 841.89]
+/Resources << /Font << /F1 3 0 R /F2 4 0 R >> >>
+/Contents 19 0 R
+>>
+endobj
+21 0 obj
+<< /Length 2452 >>
+stream
+BT
+1 0 0 1 0 0 Tm
+/F1 10.5 Tf
+70 779.89 Td
+(- Achievements.) Tj
+0 -15 Td
+-70 -760.89 Td
+/F1 10.5 Tf
+70 756.89 Td
+(- Social links.) Tj
+0 -15 Td
+-70 -737.89 Td
+/F1 10.5 Tf
+56 733.89 Td
+0 -15 Td
+-56 -714.89 Td
+/F1 10.5 Tf
+56 710.89 Td
+(This keeps content maintainable and easier to update.) Tj
+0 -15 Td
+-56 -691.89 Td
+/F1 10.5 Tf
+56 687.89 Td
+0 -15 Td
+-56 -668.89 Td
+/F2 16 Tf
+56 650.89 Td
+(11. Risks) Tj
+0 -22 Td
+-56 -620.89 Td
+/F1 10.5 Tf
+56 616.89 Td
+0 -15 Td
+-56 -597.89 Td
+/F1 10.5 Tf
+70 593.89 Td
+(- Scroll animation can hurt usability if it becomes too complex.) Tj
+0 -15 Td
+-70 -574.89 Td
+/F1 10.5 Tf
+70 570.89 Td
+(- Heavy visual assets can reduce performance.) Tj
+0 -15 Td
+-70 -551.89 Td
+/F1 10.5 Tf
+70 547.89 Td
+(- Horizontal storytelling can be difficult on mobile.) Tj
+0 -15 Td
+-70 -528.89 Td
+/F1 10.5 Tf
+70 524.89 Td
+(- Too much motion can reduce accessibility.) Tj
+0 -15 Td
+-70 -505.89 Td
+/F1 10.5 Tf
+70 501.89 Td
+(- AI-generated UI may produce inconsistent design unless reviewed carefully.) Tj
+0 -15 Td
+-70 -482.89 Td
+/F1 10.5 Tf
+56 478.89 Td
+0 -15 Td
+-56 -459.89 Td
+/F2 16 Tf
+56 441.89 Td
+(12. Open Questions) Tj
+0 -22 Td
+-56 -411.89 Td
+/F1 10.5 Tf
+56 407.89 Td
+0 -15 Td
+-56 -388.89 Td
+/F1 10.5 Tf
+70 384.89 Td
+(- Which projects are confirmed as flagship case studies?) Tj
+0 -15 Td
+-70 -365.89 Td
+/F1 10.5 Tf
+70 361.89 Td
+(- Which resume file should be linked?) Tj
+0 -15 Td
+-70 -342.89 Td
+/F1 10.5 Tf
+70 338.89 Td
+(- Should the first release include sound, or should sound be a later enhancement?) Tj
+0 -15 Td
+-70 -319.89 Td
+/F1 10.5 Tf
+70 315.89 Td
+(- Should the first release include a full engineering notes page, or begin with notes) Tj
+0 -15 Td
+(inside each project?) Tj
+0 -15 Td
+-70 -281.89 Td
+/F1 10.5 Tf
+70 277.89 Td
+(- Should the project use a CMS later, or remain static for performance and) Tj
+0 -15 Td
+(simplicity?) Tj
+0 -15 Td
+-70 -243.89 Td
+/F1 10.5 Tf
+56 239.89 Td
+0 -15 Td
+-56 -220.89 Td
+/F2 16 Tf
+56 202.89 Td
+(13. Release Criteria) Tj
+0 -22 Td
+-56 -172.89 Td
+/F1 10.5 Tf
+56 168.89 Td
+0 -15 Td
+-56 -149.89 Td
+/F1 10.5 Tf
+56 145.89 Td
+(Version 1.0 is ready when:) Tj
+0 -15 Td
+-56 -126.88999999999999 Td
+/F1 10.5 Tf
+56 122.88999999999999 Td
+0 -15 Td
+-56 -103.88999999999999 Td
+/F1 10.5 Tf
+70 99.88999999999999 Td
+(- All core sections are implemented.) Tj
+0 -15 Td
+-70 -80.88999999999999 Td
+/F1 10.5 Tf
+70 76.88999999999999 Td
+(- At least three projects have complete case studies.) Tj
+0 -15 Td
+-70 -57.889999999999986 Td
+ET
+endstream
+endobj
+22 0 obj
+<< /Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 595.28 841.89]
+/Resources << /Font << /F1 3 0 R /F2 4 0 R >> >>
+/Contents 21 0 R
+>>
+endobj
+23 0 obj
+<< /Length 495 >>
+stream
+BT
+1 0 0 1 0 0 Tm
+/F1 10.5 Tf
+70 779.89 Td
+(- Resume, GitHub, LinkedIn, and email actions work.) Tj
+0 -15 Td
+-70 -760.89 Td
+/F1 10.5 Tf
+70 756.89 Td
+(- Desktop and mobile layouts are polished.) Tj
+0 -15 Td
+-70 -737.89 Td
+/F1 10.5 Tf
+70 733.89 Td
+(- Lighthouse targets are met or documented with a remediation plan.) Tj
+0 -15 Td
+-70 -714.89 Td
+/F1 10.5 Tf
+70 710.89 Td
+(- README and docs explain the product clearly.) Tj
+0 -15 Td
+-70 -691.89 Td
+/F1 10.5 Tf
+56 687.89 Td
+0 -15 Td
+-56 -668.89 Td
+ET
+endstream
+endobj
+24 0 obj
+<< /Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 595.28 841.89]
+/Resources << /Font << /F1 3 0 R /F2 4 0 R >> >>
+/Contents 23 0 R
+>>
+endobj
+xref
+0 25
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000178 00000 n 
+0000000248 00000 n 
+0000000323 00000 n 
+0000002559 00000 n 
+0000002701 00000 n 
+0000005052 00000 n 
+0000005194 00000 n 
+0000007710 00000 n 
+0000007853 00000 n 
+0000010251 00000 n 
+0000010395 00000 n 
+0000012709 00000 n 
+0000012853 00000 n 
+0000015247 00000 n 
+0000015391 00000 n 
+0000017620 00000 n 
+0000017764 00000 n 
+0000019781 00000 n 
+0000019925 00000 n 
+0000022430 00000 n 
+0000022574 00000 n 
+0000023121 00000 n 
+trailer
+<< /Size 25 /Root 1 0 R >>
+startxref
+23265
+%%EOF
