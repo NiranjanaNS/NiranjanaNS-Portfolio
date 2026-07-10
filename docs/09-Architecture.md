@@ -2,7 +2,9 @@
 
 ## Planned Stack
 
-- Framework: Next.js 15
+- Monorepo: pnpm workspaces
+- Web: Next.js 15
+- API: NestJS
 - Language: TypeScript
 - Styling: Tailwind CSS
 - Components: Shadcn UI
@@ -10,9 +12,11 @@
 - Smooth Scroll: Lenis
 - Icons: Lucide React
 - Forms: React Hook Form + Zod
-- Deployment: Vercel
+- Database: PostgreSQL with Prisma
+- Cache: Redis when there is a real caching need
+- Deployment: Vercel for web, Render or similar for API initially
 
-## Folder Structure
+## Current Planning Structure
 
 ```text
 src/
@@ -41,6 +45,30 @@ src/
   utils/
   styles/
 ```
+
+## Target Monorepo Structure
+
+When Sprint 3 begins, the repository should move toward:
+
+```text
+apps/
+  web/
+  api/
+packages/
+  ui/
+  types/
+  config/
+docker/
+docs/
+design/
+wireframes/
+journal/
+```
+
+Decision:
+
+- Use pnpm workspaces first.
+- Delay Turborepo until workspace scripts or build caching become valuable.
 
 ## Architecture Principles
 
@@ -104,7 +132,11 @@ GSAP setup should be centralized so scenes do not each create disconnected scrol
 
 ## Deployment Architecture
 
-Target deployment: Vercel.
+Target deployment:
+
+- Web: Vercel.
+- API: Render or similar platform at first.
+- Later: AWS EC2, RDS, Redis, and S3 can be considered if the project needs deeper DevOps proof.
 
 Release checks:
 
@@ -114,3 +146,23 @@ Release checks:
 - Lighthouse audit completed.
 - Links verified.
 - Resume download verified.
+
+## Backend Architecture
+
+The backend should use NestJS when backend work begins.
+
+Planned modules:
+
+- Auth.
+- Users.
+- Projects.
+- Skills.
+- Blog or engineering notes.
+- Contact.
+- Analytics.
+- GitHub sync.
+- Dashboard.
+
+Rule:
+
+- Add backend technologies only when they solve a real product problem.

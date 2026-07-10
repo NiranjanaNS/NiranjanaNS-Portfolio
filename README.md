@@ -43,23 +43,32 @@ Start here:
 - [Decision Log](docs/13-Decision-Log.md)
 - [Competitive Research](docs/Competitive-Research.md)
 - [Animation Research](docs/Animation-Research.md)
+- [Component Tree](docs/component-tree.md)
+- [State Diagram](docs/state-diagram.md)
+- [Interaction Map](docs/interaction-map.md)
+- [Backend Architecture](docs/backend-architecture.md)
+- [Scene Blueprint](design/scene-blueprint.md)
+- [Character Sheet](design/character-sheet.md)
+- [Animation Specification](design/animation-specification.md)
 
 ## Current Phase
 
-Phase 1: Product Discovery and Design
+Phase 2: UX, Design, and Architecture
 
-This phase focuses on product clarity before implementation:
+This phase focuses on designing the experience before implementation:
 
-- Define the portfolio vision.
-- Document the user journey.
-- Establish the design system.
-- Plan the animation system.
-- Create the technical architecture.
-- Prepare the project for implementation.
+- Finish the scene blueprint.
+- Create low-fidelity wireframes.
+- Define the character sheet.
+- Create design tokens.
+- Plan component structure.
+- Map states and interactions.
+- Define detailed animation behavior.
 
 ## Planned Stack
 
 - Next.js 15
+- NestJS
 - TypeScript
 - Tailwind CSS
 - Shadcn UI
@@ -68,7 +77,19 @@ This phase focuses on product clarity before implementation:
 - Framer Motion
 - Lucide React
 - React Hook Form + Zod
+- Prisma
+- PostgreSQL
 - Vercel
+
+## Wireframes
+
+Low-fidelity Sprint 2 wireframes live in [wireframes](wireframes/).
+
+Regenerate them with:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts\generate-wireframes.ps1
+```
 
 ## Success Standard
 

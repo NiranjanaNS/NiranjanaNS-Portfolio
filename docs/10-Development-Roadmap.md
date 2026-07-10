@@ -1,8 +1,23 @@
 # Development Roadmap
 
-## Phase 1: Product Discovery and Design
+## Overall Roadmap
+
+```text
+Phase 1: Product Discovery and Documentation
+Phase 2: UX, Design, and Architecture
+Phase 3: Frontend Foundation
+Phase 4: Scroll Engine
+Phase 5: Core Portfolio Sections
+Phase 6: Backend with NestJS
+Phase 7: CMS and Dashboard
+Phase 8: Production and Deployment
+```
+
+## Phase 1: Product Discovery and Documentation
 
 Goal: Define the product before building the interface.
+
+Status: complete.
 
 Deliverables:
 
@@ -15,107 +30,119 @@ Deliverables:
 - Animation system.
 - Technical architecture.
 
-## Phase 2: Portfolio Engine
+## Phase 2: UX, Design, and Architecture
+
+Goal: Design every scene before writing UI components.
+
+Deliverables:
+
+- Scene blueprint.
+- Low-fidelity wireframes.
+- Character sheet.
+- Design tokens.
+- Component tree.
+- State diagram.
+- Interaction map.
+- Detailed animation specification.
+- Backend architecture decision.
+- Monorepo direction.
+
+## Phase 3: Frontend Foundation
 
 Goal: Build the technical foundation for the portfolio experience.
 
 Deliverables:
 
+- pnpm workspace setup.
 - Next.js setup.
 - TypeScript configuration.
 - Tailwind configuration.
+- ESLint and Prettier.
+- Husky and Commitlint.
 - Font setup.
 - Base layout.
 - Theme tokens.
 - Component inventory page.
-- Smooth scrolling setup.
-- Scroll scene architecture.
-- Reduced-motion support.
+- Lucide setup.
+- Shadcn UI setup.
 
-## Phase 3: Design System Implementation
+## Phase 4: Scroll Engine
 
-Goal: Build reusable UI before building full scenes.
+Goal: Build the movement system before building full content scenes.
 
 Deliverables:
 
-- Button.
-- Badge.
-- Chip.
-- Card.
-- Tooltip.
-- Dialog or drawer.
-- Section header.
-- Timeline item.
-- Skill crystal.
-- Project case study preview.
-- Navigation.
-- Progress indicator.
+- Smooth scrolling setup.
+- Pinned container.
+- Horizontal world movement.
+- Scene detection.
+- Animation controller.
+- Character state controller.
+- Responsive fallback.
+- Reduced-motion support.
 
-## Phase 4: Core Scenes
+## Phase 5: Core Portfolio Sections
 
 Goal: Build each scene as a polished, responsive section.
 
-Deliverables:
+Sprints:
 
-- Hero.
-- About.
-- Education.
+- Loading and Hero.
+- About Forest.
+- University.
 - Skills Forest.
 - Developer City.
 - Project Laboratory.
-- Engineering Hub.
 - AI Research Center.
-- Achievements.
-- Contact.
+- Engineering Room.
+- GitHub Galaxy.
+- Contact Camp.
 
-## Phase 5: Case Studies and Engineering Notes
+## Phase 6: Backend with NestJS
 
-Goal: Turn projects into proof of engineering ability.
-
-Deliverables:
-
-- Case study template.
-- Project architecture sections.
-- Lessons learned sections.
-- Mistakes and improvements sections.
-- Screenshots or visual previews.
-- GitHub and deployment links.
-
-## Phase 6: Performance, Accessibility, and SEO
-
-Goal: Make the portfolio production-ready.
+Goal: Add backend features only where they strengthen the product.
 
 Deliverables:
 
+- NestJS API.
+- Prisma.
+- PostgreSQL.
+- Contact requests.
+- Admin auth.
+- Projects API.
+- Skills API.
+- Analytics API.
+- GitHub sync API.
+- Swagger documentation.
+- Docker setup.
+
+## Phase 7: CMS and Dashboard
+
+Goal: Make the portfolio maintainable without editing code for every content update.
+
+Deliverables:
+
+- Admin login.
+- Manage projects.
+- Manage skills.
+- Manage timeline.
+- Manage achievements.
+- Review contact messages.
+- Publish updates.
+
+## Phase 8: Production and Deployment
+
+Goal: Make the full-stack product production-ready.
+
+Deliverables:
+
+- Docker.
+- CI/CD.
+- GitHub Actions.
+- Web deployment.
+- API deployment.
+- Database deployment.
+- Monitoring.
 - Lighthouse audit.
 - Accessibility audit.
-- Mobile polish.
-- Asset optimization.
-- Metadata and Open Graph.
-- Sitemap and robots file.
-- Reduced-motion review.
-
-## Phase 7: Launch
-
-Goal: Publish and prepare for recruiter review.
-
-Deliverables:
-
-- Vercel deployment.
-- Custom domain if available.
-- Final README.
-- Updated resume link.
-- GitHub repository cleanup.
-- Release notes.
-
-## Phase 8: Iteration
-
-Goal: Improve based on feedback and new projects.
-
-Deliverables:
-
-- Engineering Notes page.
-- More project case studies.
-- Optional ambient sound.
-- Optional CMS or MDX content system.
-- Analytics for section engagement.
+- SEO audit.
