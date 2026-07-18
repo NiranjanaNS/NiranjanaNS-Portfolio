@@ -77,19 +77,19 @@ Link:
 
 What I like:
 
-- 
+-
 
 What I do not like:
 
-- 
+-
 
 Ideas to use:
 
-- 
+-
 
 Ideas to avoid:
 
-- 
+-
 
 ## Early Direction
 

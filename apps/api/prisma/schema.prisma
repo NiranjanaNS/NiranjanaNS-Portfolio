@@ -1,0 +1,162 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  ADMIN
+  EDITOR
+  VIEWER
+}
+
+enum PublishStatus {
+  DRAFT
+  PUBLISHED
+  ARCHIVED
+}
+
+enum MessageStatus {
+  NEW
+  READ
+  REPLIED
+  ARCHIVED
+}
+
+model User {
+  id           String   @id @default(cuid())
+  name         String
+  email        String   @unique
+  passwordHash String
+  role         Role     @default(ADMIN)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  blogPosts Blog[]
+}
+
+model Project {
+  id               String        @id @default(cuid())
+  slug             String        @unique
+  name             String
+  shortDescription String
+  description      String?
+  problem          String?
+  solution         String?
+  techStack        String[]
+  githubUrl        String?
+  liveUrl          String?
+  imageUrl         String?
+  architecture     String?
+  challenges       String[]
+  lessonsLearned   String[]
+  status           PublishStatus @default(DRAFT)
+  featured         Boolean       @default(false)
+  sortOrder        Int           @default(0)
+  createdAt        DateTime      @default(now())
+  updatedAt        DateTime      @updatedAt
+}
+
+model Skill {
+  id          String   @id @default(cuid())
+  name        String
+  category    String
+  description String?
+  icon        String?
+  years       Float?
+  libraries   String[]
+  projects    String[]
+  sortOrder   Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Education {
+  id          String   @id @default(cuid())
+  institution String
+  degree      String
+  field       String?
+  startYear   Int?
+  endYear     Int?
+  grade       String?
+  highlights  String[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Experience {
+  id               String    @id @default(cuid())
+  company          String
+  role             String
+  employmentType   String?
+  startDate        DateTime?
+  endDate          DateTime?
+  current          Boolean   @default(false)
+  responsibilities String[]
+  achievements     String[]
+  createdAt        DateTime  @default(now())
+  updatedAt        DateTime  @updatedAt
+}
+
+model Achievement {
+  id            String    @id @default(cuid())
+  title         String
+  issuer        String?
+  date          DateTime?
+  credentialUrl String?
+  description   String?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+}
+
+model Blog {
+  id          String        @id @default(cuid())
+  slug        String        @unique
+  title       String
+  excerpt     String?
+  content     String
+  status      PublishStatus @default(DRAFT)
+  publishedAt DateTime?
+  authorId    String?
+  author      User?         @relation(fields: [authorId], references: [id])
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime      @updatedAt
+}
+
+model Message {
+  id        String        @id @default(cuid())
+  name      String
+  email     String
+  subject   String?
+  body      String
+  status    MessageStatus @default(NEW)
+  notes     String?
+  createdAt DateTime      @default(now())
+  updatedAt DateTime      @updatedAt
+}
+
+model Visitor {
+  id          String   @id @default(cuid())
+  anonymousId String   @unique
+  country     String?
+  browser     String?
+  device      String?
+  referrer    String?
+  createdAt   DateTime @default(now())
+
+  analytics Analytics[]
+}
+
+model Analytics {
+  id        String   @id @default(cuid())
+  visitorId String?
+  visitor   Visitor? @relation(fields: [visitorId], references: [id])
+  eventName String
+  section   String?
+  metadata  Json?
+  createdAt DateTime @default(now())
+}

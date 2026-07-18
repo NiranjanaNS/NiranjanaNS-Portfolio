@@ -1,4 +1,4 @@
-﻿# NiranjanaNS Portfolio
+# NiranjanaNS Portfolio
 
 An engineering-focused portfolio built as a product, not just a personal website.
 
@@ -104,3 +104,48 @@ node scripts/generate-prd-pdf.mjs
 ```
 
 This regenerates `docs/NiranjanaNS_Portfolio_PRD_v1.pdf` from `docs/02-PRD.md`.
+
+## Engineering Foundation
+
+This repository is now structured as a pnpm monorepo:
+
+```text
+apps/
+  web/   Next.js portfolio app
+  api/   NestJS backend API
+packages/
+  ui/             shared UI primitives
+  config/         shared design tokens and constants
+  types/          shared TypeScript types
+  eslint-config/  shared lint configuration
+docker/
+  Dockerfile.web
+  Dockerfile.api
+  docker-compose.yml
+```
+
+Install dependencies when registry access is available:
+
+```bash
+pnpm install
+```
+
+Run the apps locally:
+
+```bash
+pnpm dev
+```
+
+Run checks:
+
+```bash
+pnpm lint
+pnpm typecheck
+pnpm build
+```
+
+Run local infrastructure with Docker:
+
+```bash
+pnpm docker:up
+```

@@ -149,7 +149,9 @@ function buildPdf(renderPages) {
 
   for (const renderPage of renderPages) {
     const content = renderPageContent(renderPage);
-    const contentId = addObject(`<< /Length ${Buffer.byteLength(content, "utf8")} >>\nstream\n${content}\nendstream`);
+    const contentId = addObject(
+      `<< /Length ${Buffer.byteLength(content, "utf8")} >>\nstream\n${content}\nendstream`,
+    );
     const pageId = addObject(
       [
         "<< /Type /Page",

@@ -1,0 +1,19 @@
+{
+  "name": "@niranjanans/types",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "build": "tsc --noEmit",
+    "lint": "eslint . --max-warnings=0",
+    "typecheck": "tsc --noEmit",
+    "test": "echo \"No types tests configured yet\""
+  },
+  "devDependencies": {
+    "@niranjanans/eslint-config": "workspace:*",
+    "eslint": "^9.30.1",
+    "typescript": "^5.8.3"
+  }
+}

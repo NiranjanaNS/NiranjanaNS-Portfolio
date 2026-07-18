@@ -1,0 +1,8 @@
+node_modules
+.next
+dist
+build
+coverage
+pnpm-lock.yaml
+docs/NiranjanaNS_Portfolio_PRD_v1.pdf
+wireframes/*.png

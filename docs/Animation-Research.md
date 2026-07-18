@@ -25,7 +25,7 @@ Observe:
 
 Notes:
 
-- 
+-
 
 ### Hover
 
@@ -38,7 +38,7 @@ Observe:
 
 Notes:
 
-- 
+-
 
 ### Click
 
@@ -50,7 +50,7 @@ Observe:
 
 Notes:
 
-- 
+-
 
 ### Scroll
 
@@ -63,7 +63,7 @@ Observe:
 
 Notes:
 
-- 
+-
 
 ### Page Transition
 
@@ -75,7 +75,7 @@ Observe:
 
 Notes:
 
-- 
+-
 
 ## Ideas To Use
 

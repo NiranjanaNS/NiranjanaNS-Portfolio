@@ -11,27 +11,27 @@
 
 ## Color Tokens
 
-| Token | Hex | Use |
-| --- | --- | --- |
-| Background | `#050816` | Main page background |
-| Surface | `#0F172A` | Section surfaces and deep panels |
-| Card | `#111827` | Cards and elevated UI |
-| Border | `#1E293B` | Subtle dividers |
-| Primary | `#3B82F6` | Main actions and engineering accent |
-| Secondary | `#7C3AED` | Creative accent |
-| Success | `#22C55E` | Positive states |
-| Warning | `#F59E0B` | Warnings and attention states |
-| Error | `#EF4444` | Error states |
-| Text | `#F8FAFC` | Primary text |
-| Muted Text | `#94A3B8` | Secondary text |
+| Token      | Hex       | Use                                 |
+| ---------- | --------- | ----------------------------------- |
+| Background | `#050816` | Main page background                |
+| Surface    | `#0F172A` | Section surfaces and deep panels    |
+| Card       | `#111827` | Cards and elevated UI               |
+| Border     | `#1E293B` | Subtle dividers                     |
+| Primary    | `#3B82F6` | Main actions and engineering accent |
+| Secondary  | `#7C3AED` | Creative accent                     |
+| Success    | `#22C55E` | Positive states                     |
+| Warning    | `#F59E0B` | Warnings and attention states       |
+| Error      | `#EF4444` | Error states                        |
+| Text       | `#F8FAFC` | Primary text                        |
+| Muted Text | `#94A3B8` | Secondary text                      |
 
 ## Typography
 
-| Role | Font | Use |
-| --- | --- | --- |
-| Heading | Space Grotesk | Hero, section titles, major labels |
-| Body | Inter | Paragraphs, labels, navigation |
-| Code | JetBrains Mono | Code snippets, technical labels |
+| Role    | Font           | Use                                |
+| ------- | -------------- | ---------------------------------- |
+| Heading | Space Grotesk  | Hero, section titles, major labels |
+| Body    | Inter          | Paragraphs, labels, navigation     |
+| Code    | JetBrains Mono | Code snippets, technical labels    |
 
 ## Type Scale
 

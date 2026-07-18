@@ -1,0 +1,13 @@
+.git
+.github
+.husky
+node_modules
+.pnpm-store
+.next
+dist
+build
+coverage
+*.log
+.env
+.env.*
+!.env.example
