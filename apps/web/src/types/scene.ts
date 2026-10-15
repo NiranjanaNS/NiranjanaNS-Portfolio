@@ -11,4 +11,6 @@ export interface SceneState {
   previousScene?: SceneDefinition;
   nextScene?: SceneDefinition;
   progress: number;
+  sceneIndex: number;
+  sceneProgress: number;
 }

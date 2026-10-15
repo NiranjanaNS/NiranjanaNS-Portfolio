@@ -8,7 +8,7 @@
     "start": "node dist/main.js",
     "lint": "eslint . --max-warnings=0",
     "typecheck": "tsc --noEmit",
-    "test": "echo \"No api tests configured yet\"",
+    "test": "pnpm build && node --test test/*.test.mjs",
     "prisma:generate": "prisma generate",
     "prisma:migrate": "prisma migrate dev"
   },

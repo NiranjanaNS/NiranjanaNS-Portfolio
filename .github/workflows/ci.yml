@@ -37,5 +37,8 @@ jobs:
       - name: Typecheck
         run: pnpm typecheck
 
+      - name: API tests
+        run: pnpm --filter @niranjanans/api test
+
       - name: Build
         run: pnpm build

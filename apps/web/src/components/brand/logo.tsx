@@ -10,7 +10,7 @@ export function Logo() {
       <span className="flex size-9 items-center justify-center rounded-component border border-primary/40 bg-primary/10 font-heading text-sm font-semibold text-primary">
         N
       </span>
-      <span className="hidden font-heading text-sm font-semibold tracking-wide text-text sm:inline">
+      <span className="hidden font-heading text-sm font-semibold text-text sm:inline">
         NiranjanaNS
       </span>
     </Link>

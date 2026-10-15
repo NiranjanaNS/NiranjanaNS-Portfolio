@@ -1,4 +1,4 @@
-import { Github, Moon, ScrollText } from "lucide-react";
+import { Github } from "lucide-react";
 import Link from "next/link";
 import { Logo } from "@/components/brand/logo";
 import { externalLinks, navigationItems } from "@/data/navigation";
@@ -14,7 +14,7 @@ export function Navbar() {
         className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6 lg:px-8"
       >
         <Logo />
-        <div className="hidden items-center gap-6 md:flex">
+        <div className="flex items-center gap-5 sm:gap-6">
           {navigationItems.map((item) => (
             <Link
               key={item.href}
@@ -28,6 +28,7 @@ export function Navbar() {
         <div className="flex items-center gap-2">
           <Link
             aria-label="Open GitHub profile"
+            title="Open GitHub profile"
             className={iconLinkClass}
             href={externalLinks.github}
             rel="noreferrer"
@@ -35,12 +36,6 @@ export function Navbar() {
           >
             <Github aria-hidden="true" size={18} />
           </Link>
-          <Link aria-label="Open resume" className={iconLinkClass} href={externalLinks.resume}>
-            <ScrollText aria-hidden="true" size={18} />
-          </Link>
-          <button aria-label="Dark theme active" className={iconLinkClass} type="button">
-            <Moon aria-hidden="true" size={18} />
-          </button>
         </div>
       </nav>
     </header>

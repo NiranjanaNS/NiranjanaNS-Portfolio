@@ -5,6 +5,9 @@ import { Footer } from "./footer";
 export function SiteShell({ children }: { children: ReactNode }) {
   return (
     <div className="min-h-screen bg-background text-text">
+      <a className="skip-link" href="#main-content">
+        Skip to content
+      </a>
       <Navbar />
       <div className="pt-16">{children}</div>
       <Footer />

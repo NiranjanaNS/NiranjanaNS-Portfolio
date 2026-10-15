@@ -1,11 +1,11 @@
 export const foundationLayers = [
   "Application shell",
   "Theme provider",
-  "Smooth scroll placeholder",
-  "Scroll progress provider",
-  "Scene manager",
+  "Lenis smooth scroll",
+  "Pinned scroll world",
+  "Horizontal translation",
+  "Scene detection",
+  "Responsive fallback",
   "Animation manager",
-  "Navigation layout",
   "Shared UI primitives",
-  "Data layer",
 ] as const;

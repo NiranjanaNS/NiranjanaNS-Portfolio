@@ -5,6 +5,7 @@ import { AuthModule } from "./modules/auth/auth.module";
 import { BlogModule } from "./modules/blog/blog.module";
 import { ContactModule } from "./modules/contact/contact.module";
 import { EducationModule } from "./modules/education/education.module";
+import { HealthModule } from "./modules/health/health.module";
 import { ProjectsModule } from "./modules/projects/projects.module";
 import { SkillsModule } from "./modules/skills/skills.module";
 import { UsersModule } from "./modules/users/users.module";
@@ -12,6 +13,7 @@ import { UsersModule } from "./modules/users/users.module";
 @Module({
   imports: [
     ConfigModule.forRoot({ isGlobal: true }),
+    HealthModule,
     AuthModule,
     UsersModule,
     ProjectsModule,

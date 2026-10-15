@@ -1,10 +1,8 @@
 import type { NavigationItem } from "@/types/navigation";
 
 export const navigationItems: NavigationItem[] = [
+  { label: "Home", href: "#hero" },
   { label: "Journey", href: "#journey" },
-  { label: "Architecture", href: "#architecture" },
-  { label: "Engine", href: "#engine" },
-  { label: "Contact", href: "#contact" },
 ];
 
 export const externalLinks = {
