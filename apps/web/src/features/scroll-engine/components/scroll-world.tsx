@@ -4,6 +4,7 @@ import { useMemo, useRef } from "react";
 import { useWindowSize } from "@/hooks/use-window-size";
 import { canUseHorizontalWorld } from "@/utils/scroll-layout";
 import { AboutWorld } from "@/features/about/components/about-world";
+import { EducationWorld } from "@/features/education/components/education-world";
 import { usePrefersReducedMotion } from "@/hooks/use-prefers-reduced-motion";
 import { useScrollWorld } from "@/hooks/use-scroll-world";
 import type { SceneDefinition } from "@/types/scene";
@@ -20,7 +21,11 @@ export function ScrollWorld({ scenes }: { scenes: SceneDefinition[] }) {
   const containerHeight = useMemo(() => `${Math.max(scenes.length, 1) * 100}vh`, [scenes.length]);
   const panels = scenes.map((scene) => (
     <ScenePanel key={scene.id} scene={scene} isHorizontal={isHorizontal}>
-      {scene.id === "about" ? <AboutWorld /> : undefined}
+      {scene.id === "about" ? (
+        <AboutWorld />
+      ) : scene.id === "education" ? (
+        <EducationWorld />
+      ) : undefined}
     </ScenePanel>
   ));
 
