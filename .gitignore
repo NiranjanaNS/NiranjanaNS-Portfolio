@@ -29,3 +29,6 @@ Thumbs.db
 
 # generated
 apps/api/generated/
+
+# Personal documents and local-only artifacts
+/local-artifacts/

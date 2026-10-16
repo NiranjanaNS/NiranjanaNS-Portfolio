@@ -1,7 +1,9 @@
 "use client";
 
 import { useMemo, useRef } from "react";
-import { useDevice } from "@/hooks/use-device";
+import { useWindowSize } from "@/hooks/use-window-size";
+import { canUseHorizontalWorld } from "@/utils/scroll-layout";
+import { AboutWorld } from "@/features/about/components/about-world";
 import { usePrefersReducedMotion } from "@/hooks/use-prefers-reduced-motion";
 import { useScrollWorld } from "@/hooks/use-scroll-world";
 import type { SceneDefinition } from "@/types/scene";
@@ -11,11 +13,16 @@ import { SceneProgress } from "./scene-progress";
 
 export function ScrollWorld({ scenes }: { scenes: SceneDefinition[] }) {
   const containerRef = useRef<HTMLDivElement | null>(null);
-  const device = useDevice();
+  const { width, height } = useWindowSize();
   const prefersReducedMotion = usePrefersReducedMotion();
-  const isHorizontal = device !== "mobile" && !prefersReducedMotion;
+  const isHorizontal = canUseHorizontalWorld(width, height, prefersReducedMotion);
   const state = useScrollWorld(containerRef, scenes, isHorizontal);
   const containerHeight = useMemo(() => `${Math.max(scenes.length, 1) * 100}vh`, [scenes.length]);
+  const panels = scenes.map((scene) => (
+    <ScenePanel key={scene.id} scene={scene} isHorizontal={isHorizontal}>
+      {scene.id === "about" ? <AboutWorld /> : undefined}
+    </ScenePanel>
+  ));
 
   return (
     <SceneProvider value={state}>
@@ -26,10 +33,8 @@ export function ScrollWorld({ scenes }: { scenes: SceneDefinition[] }) {
         </div>
 
         {!isHorizontal ? (
-          <div ref={containerRef} className="grid gap-6 px-6 py-8">
-            {scenes.map((scene) => (
-              <ScenePanel key={scene.id} scene={scene} />
-            ))}
+          <div ref={containerRef} className="grid">
+            {panels}
           </div>
         ) : (
           <div ref={containerRef} className="relative" style={{ height: containerHeight }}>
@@ -43,9 +48,7 @@ export function ScrollWorld({ scenes }: { scenes: SceneDefinition[] }) {
                   transform: `translate3d(-${state.translateX}%, 0, 0)`,
                 }}
               >
-                {scenes.map((scene) => (
-                  <ScenePanel key={scene.id} scene={scene} isHorizontal />
-                ))}
+                {panels}
               </div>
               <SceneProgress scenes={scenes} />
             </div>

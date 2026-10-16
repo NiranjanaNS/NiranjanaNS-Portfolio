@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 import { getScenePosition, getStackedProgress } from "../apps/web/src/utils/scene-position.ts";
+import { canUseHorizontalWorld } from "../apps/web/src/utils/scroll-layout.ts";
 
 test("world endpoints and out-of-range input stay bounded", () => {
   assert.equal(getScenePosition(-1, 8).sceneIndex, 0);
@@ -36,4 +37,14 @@ test("stacked detection uses measured centers, including unequal heights", () =>
   assert.equal(getScenePosition(getStackedProgress(centers, 800), 3).sceneIndex, 2);
   assert.equal(getStackedProgress(centers, 1200), 1);
   assert.equal(getStackedProgress([100], 200), 0);
+});
+
+test("horizontal scenes require enough space and unrestricted motion", () => {
+  assert.equal(canUseHorizontalWorld(1440, 900, false), true);
+  assert.equal(canUseHorizontalWorld(768, 800, false), true);
+  assert.equal(canUseHorizontalWorld(767, 800, false), false);
+  assert.equal(canUseHorizontalWorld(1440, 799, false), false);
+  assert.equal(canUseHorizontalWorld(390, 844, false), false);
+  assert.equal(canUseHorizontalWorld(1440, 900, true), false);
+  assert.equal(canUseHorizontalWorld(0, 0, false), false);
 });

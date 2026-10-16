@@ -40,5 +40,8 @@ jobs:
       - name: API tests
         run: pnpm --filter @niranjanans/api test
 
+      - name: Web tests
+        run: pnpm --filter @niranjanans/web test
+
       - name: Build
         run: pnpm build
